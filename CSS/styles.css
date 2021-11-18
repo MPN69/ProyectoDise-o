@@ -36,3 +36,16 @@
     margin-right: 6rem;
     margin-left: 6rem;
 }
+
+div ul li:hover{
+    background: rgb(218, 196, 0);
+    color: #fff;
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 5px 5px 0px rgba(0, 0, 0, 0.4);
+    transition: 200ms;
+    transition: 200ms ease;
+}
+
+div ul li{
+    transition: 0.2s;
+}
