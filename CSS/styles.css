@@ -44,8 +44,54 @@ div ul li:hover{
     box-shadow: 0 5px 5px 0px rgba(0, 0, 0, 0.4);
     transition: 200ms;
     transition: 200ms ease;
+    border-radius:45%;
+    /* height: 3.5rem; */
+    /* padding-right: 20px;
+    padding-left: 20px; */
+    text-align: center;
+    display: inline-block;
+    height: 60px;
+    width: 110px;
 }
 
 div ul li{
     transition: 0.2s;
+    height: 60px;
+    width: 110px;
+    text-align: center;
+    display: inline-block;
+    
 }
+
+.d-block{
+    width: 100% !important;
+    max-height: 55rem;
+    height: 55rem !important;
+    height: fit-content !important;
+}
+
+.carousel-caption h1{
+    color: white;
+    text-shadow: 0 0 5px rgb(39, 39, 39), 0 0 10px rgb(49, 49, 49),
+    0 0 20px rgb(32, 32, 32), 0 0 40px rgb(41, 41, 41),
+    0 0 80px rgb(32, 32, 32), 0 0 90px rgb(24, 24, 24)/*,
+    0 0 100px rgb(0, 0, 0)*/;;
+}
+
+
+.carousel-indicators{
+    display: inline-block;
+}
+
+.carousel-inner{
+    max-height: 700px;
+    size-adjust: fill;
+}
+
+/* .carousel-logo{
+    display:flex;
+    align-content: start;
+    position: absolute;
+    top:50%;
+} */
+
