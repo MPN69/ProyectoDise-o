@@ -84,8 +84,9 @@ div ul li{
 }
 
 .carousel-inner{
-    max-height: 700px;
+    max-height: 660px;
     size-adjust: fill;
+    border-radius: 4px;
 }
 
 /* .carousel-logo{
@@ -95,3 +96,30 @@ div ul li{
     top:50%;
 } */
 
+section h2{
+    color: white;
+    text-align: center;
+    display: block;
+    padding: 2rem;
+}
+
+section article div{
+    display: inline-block;
+    color: white;
+    align-content: space-between;
+    text-align: center;
+    padding: 2rem;
+}
+
+.titulo{
+    background-color: rgb(66, 66, 66);
+}
+
+section article div img{
+    max-height: 35rem;
+    max-width: 35rem;
+}
+
+section article{
+    margin-top: -2.5rem;
+}
