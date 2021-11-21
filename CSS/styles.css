@@ -151,9 +151,9 @@ section article div div:hover{
     transition: 200ms ease;
 }
 
-section article{
+/* section article{
     margin-top: -2.5rem;
-}
+} */
 
 main{
     background: #ffbf00;  /* fallback for old browsers */
