@@ -1,0 +1,77 @@
+*{
+    font-family: 'Agency FB', arial;
+}
+#navbarNav{
+    font-size: 2rem;
+    display: inline-block;
+}
+#logo{
+    margin-left: 2rem;
+}
+
+.nav-item{
+    margin-right: 6rem;
+    margin-left: 6rem;
+}
+
+div ul li:hover{
+    background: rgb(218, 196, 0);
+    color: #fff;
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 5px 5px 0px rgba(0, 0, 0, 0.4);
+    transition: 200ms;
+    transition: 200ms ease;
+    border-radius:45%;
+    /* height: 3.5rem; */
+    /* padding-right: 20px;
+    padding-left: 20px; */
+    text-align: center;
+    display: inline-block;
+    height: 60px;
+    width: 150px;
+}
+
+div ul li{
+    transition: 0.2s;
+    height: 60px;
+    width: 110px;
+    text-align: center;
+    display: inline-block;
+    
+}
+
+body{
+    background: red;
+}
+
+
+section article div img{
+    max-height: 25rem;
+    max-width: 25rem;
+    transition: 0.2s;
+    border-radius: 8px;
+}
+
+section article div img{
+    text-decoration: none;
+    color: white;
+    text-shadow: 0 0 5px rgb(39, 39, 39), 0 0 10px rgb(49, 49, 49),
+    0 0 20px rgb(32, 32, 32), 0 0 40px rgb(41, 41, 41),
+    0 0 80px rgb(32, 32, 32), 0 0 90px rgb(24, 24, 24);
+    transition: 0.2s;
+}
+
+section article div div:hover{
+    text-decoration: none;
+    color: white;
+    text-shadow: 0 0 5px rgb(39, 39, 39), 0 0 10px rgb(49, 49, 49),
+    0 0 20px rgb(32, 32, 32), 0 0 40px rgb(41, 41, 41),
+    0 0 80px rgb(32, 32, 32), 0 0 90px rgb(24, 24, 24);
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 5px 5px 0px rgba(0, 0, 0, 0.4);
+    transition: 200ms ease;
+}
+
+section article{
+    margin-top: -2.5rem;
+}
