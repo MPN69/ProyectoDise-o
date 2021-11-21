@@ -52,6 +52,11 @@ section article div img{
     border-radius: 8px;
 }
 
+section article div{
+    text-align: center;
+    
+}
+
 section article div img{
     text-decoration: none;
     color: white;
@@ -74,4 +79,8 @@ section article div div:hover{
 
 section article{
     margin-top: -2.5rem;
+}
+
+body{
+    background: darkslategray !important;;
 }
