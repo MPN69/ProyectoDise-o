@@ -76,6 +76,7 @@ div ul li{
     0 0 20px rgb(32, 32, 32), 0 0 40px rgb(41, 41, 41),
     0 0 80px rgb(32, 32, 32), 0 0 90px rgb(24, 24, 24)/*,
     0 0 100px rgb(0, 0, 0)*/;;
+    margin-bottom:12rem;
 }
 
 
@@ -103,6 +104,10 @@ section h2{
     padding: 2rem;
 }
 
+#img{
+    object-fit: fill;
+}
+
 section article div{
     display: inline-block;
     color: white;
@@ -115,7 +120,9 @@ section article div{
     background-color: rgb(66, 66, 66);
 }
 
-
+#logo{
+    margin-left: 2rem;
+}
 
 section article div img{
     max-height: 40rem;
@@ -132,6 +139,7 @@ section article div img{
     0 0 80px rgb(32, 32, 32), 0 0 90px rgb(24, 24, 24);
     transition: 0.2s;
 }
+
 section article div div:hover{
     text-decoration: none;
     color: white;
@@ -148,9 +156,9 @@ section article{
 }
 
 main{
-    background: #BA8B02;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #181818, #BA8B02);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #181818, #BA8B02); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #ffbf00;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #181818, #ffbf00);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #181818, #ffbf00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 
@@ -184,6 +192,15 @@ footer {
     color: #fff;
     transform: translateY(-3px) scale(1.05);
     box-shadow: 0 5px 5px 0px rgba(0, 0, 0, 0.4);
+  }
+
+  #c{
+      font-size: 2rem;
+      text-align: justify;
+  }
+
+  #texto{
+      padding: 15px;
   }
   
   footer .facebook:hover {
