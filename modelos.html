@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="CSS/bootstrap.css">
 
     <!-- CSS personal -->
-    <!-- <link rel="stylesheet" href="CSS/styles.css"> -->
+    <link rel="stylesheet" href="CSS/styles.css">
     <link rel="stylesheet" href="CSS/modelos.css">
 
     <!-- JavaSctipt JS-->
@@ -29,12 +29,15 @@
     <title>MODELOS</title>
   </head>
   <body>
-    <nav class="navbar navbar-light bg-light sticky-top navbar-expand">
+    <nav class="navbar navbar-light bg-light sticky-top navbar-expand-lg">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
-          <img src="IMGS/logo.jpeg" alt="" width="50" height="50" class="d-inline-block align-text-top justify-content-around">
+          <img id="logo" src="IMGS/logo.jpeg" alt="Logo" width="50" height="50" class="d-inline-block align-text-top justify-content-around">
         </a>
-        <div class="collapse navbar-collapse justify-content-around" id="navbarNav">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="navbarNavAltMarkup" class="collapse navbar-collapse justify-content-around" id="navbarNav">
           <ul class="navbar-nav justify-content-around">
             <li class="nav-item">
               <a class="nav-link active" href="index.html">Proveedores</a>
