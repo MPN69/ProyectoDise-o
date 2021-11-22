@@ -25,7 +25,7 @@
     <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
     <script type="text/javasctipt" src="JS/js.js"></script>
 
-    <title>VESTIR</title>
+    <title>Contactanos</title>
   </head>
   <body>
 
@@ -60,11 +60,39 @@
               <a class="nav-link active" href="ofertas.html">Ofertas</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="vestir.html">Vestir</a>
+              <a class="nav-link active" href="vestir.html">Contactanos</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
+
+    <formc class="formulario">
+      <p>
+        <label>Nombre <br>
+        <input type="texto" name="nombre_cliente" required>
+        </label> 
+        </p>
+        
+        <p>
+        <label>Email  <br> 
+        <input type="email" name="direccion_email">
+        </label>
+        </p>
+          
+        <p>
+        <label>Elige tu Canam <br>
+        <select id="canam" name="canam">
+        <option value="x3" >Maverick X3</option>
+        <option value="commander" >Commander</option>
+        <option value="sport" >Maverick Sport</option>
+        <option value="450" >Outlander 450</option>
+        <option value="renegade" >Renegade</option>
+        <option value="ds" >DS</option>
+        </select>
+        </label> 
+        <br>
+        <button class="btn btn-primary">Enviar</button>
+    </form>
   </body>
 </html>
