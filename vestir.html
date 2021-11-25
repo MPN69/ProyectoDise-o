@@ -10,10 +10,9 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="CSS/bootstrap.css">
-    <link rel="stylesheet" href="CSS/vestir.css">
 
     <!-- CSS personal -->
-    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="CSS/vestir.css">
 
     <!-- JavaSctipt JS-->
     <link rel="stylesheet" href="JS/bootstrap.bundle.js">
@@ -25,9 +24,12 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
     <script type="text/javasctipt" src="JS/js.js"></script>
-    
-    <!--Íconos-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
+
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css"
+  />
+
 
     <title>Contactanos</title>
   </head>
@@ -44,33 +46,46 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     -->
 
-    <nav class="navbar navbar-light bg-light sticky-top navbar-expand-lg">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img id="logo" src="IMGS/logo.jpeg" alt="Logo" width="50" height="50" class="d-inline-block align-text-top justify-content-around">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div id="navbarNavAltMarkup" class="collapse navbar-collapse justify-content-around" id="navbarNav">
-          <ul class="navbar-nav justify-content-around">
-            <li class="nav-item">
-              <a class="nav-link active" href="index.html">Proveedores</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="modelos.html">Modelos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="ofertas.html">Ofertas</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="vestir.html">Contactanos</a>
-            </li>
-          </ul>
+    <header class="header">
+      <nav class="navbar navbar-expand-lg navbar-dark" id="header">
+        <div class="container-fluid">
+          <a class="navbar-brand py-3" href="index.html"
+            ><img
+              id="logo"
+              src="imgs/logo.png"
+              alt=""
+              width="70"
+              height="70"
+              class="d-inline-block align-text-top"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" href="proveedores.html">Proveedores</a>
+              <a class="nav-link" href="modelos.html">Modelos</a>
+              <a class="nav-link" href="ofertas.html">Ofertas</a>
+              <a class="nav-link" href="vestir.html">Vestir</a>
+            </div>
+          </div>
         </div>
-      </div>
-    </nav>
-    <formc class="formulario">
+      </nav>
+    </header>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <form class="formulario">
       <p>
         <label>Nombre <br>
         <input type="texto" name="nombre_cliente" required>
@@ -95,31 +110,34 @@
         </select>
         </label> 
         <br>
+        <br>
         <button class="btn btn-primary">Enviar</button>
     </form>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <footer>
+      <!--facebook-->
+      <a class="facebook" href="#!" role="button"
+        ><i class="bi bi-facebook"></i
+      ></a>
+      <!-- Instagram -->
+      <a class="instagram" href="#!" role="button"
+        ><i class="bi bi-instagram"></i
+      ></a>
+
+      <!-- Whatsapp -->
+      <a class="whatsapp" href="#!" role="button"
+        ><i class="bi bi-whatsapp"></i
+      ></a>
+
+      <!-- Copyright -->
+      <div>
+        © 2021 Copyright:
+        <a id="copy" href="https://mdbootstrap.com/">La Cantina</a>
+      </div>
+    </footer>
   </body>
-
-  <!--Footer-->
-
-  <footer class="footer">
-    <!--facebook-->
-        <a class="facebook" href="#!" role="button"
-          ><i class="bi bi-facebook"></i
-        ></a>
-        <!-- Instagram -->
-        <a class="instagram" href="#!" role="button"
-          ><i class="bi bi-instagram"></i
-        ></a>
-
-        <!-- Whatsapp -->
-        <a class="whatsapp" href="#!" role="button"
-          ><i class="bi bi-whatsapp"></i
-        ></a>
-  
-    <!-- Copyright -->
-    <div>
-      © 2021 Copyright:
-      <a  id="copy" href="https://mdbootstrap.com/">La Cantina</a>
-    </div>
-  </footer>
 </html>
