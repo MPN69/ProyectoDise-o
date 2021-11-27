@@ -1,0 +1,154 @@
+v*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  /* Navbar */
+  .navbar-brand {
+      margin: 0 25px;
+    }
+    .navbar {
+      border-bottom: rgb(235, 230, 70) solid 2px !important;
+      position: fixed !important;
+      top: 0 !important;
+      z-index: 3 !important;
+      width: 100% !important;
+    }
+  
+    .nav-link {
+      font-family: Agency FB !important;
+      font-size: 20px !important;
+      margin: 0 60px !important;
+      color: #fff !important;
+      transition: all 1200ms cubic-bezier(0.19, 1, 0.22, 1)!important;
+      border-radius: 2px;
+      text-align: center;
+    }
+  
+    .nav-link:hover {
+        transform: translateY(-3px) scale(1.05);
+        box-shadow: 0 5px 3px 0px rgb(235, 230, 70);
+    }
+  
+    
+    footer {
+      color: #fff;
+      font-family: Agency FB;
+      padding: 10px 0;
+      text-align: center;
+      font-size: 14px;
+      bottom: 0;
+      width: 100%;
+      justify-content: center;
+      border-top: rgb(235, 230, 70) solid 2px;
+    }
+  
+    footer a {
+      color: #fff;
+      text-decoration: none;
+      display: inline-block;
+      margin: 0 5px;
+      width: 50px;
+      height: 50px;
+      padding: 0 10px;
+      line-height: 50px;
+      font-size: 18px;
+      transition: 0.1s;
+    }
+  
+    footer a:hover {
+      color: #fff;
+      transform: translateY(-3px) scale(1.05);
+      box-shadow: 0 5px 5px 0px rgba(0, 0, 0, 0.4);
+    }
+  
+    footer .facebook:hover {
+      background: #3b5999;
+      filter: none;
+    }
+  
+    footer .instagram:hover {
+      background: #c13584;
+    }
+    footer .whatsapp:hover {
+      background: #25d366;
+    }
+  
+    #copy {
+      font-family: Agency FB !important;
+      width: auto;
+      margin-bottom: auto;
+      color: #fff;
+      text-align: center;
+      justify-content: center;
+    }
+  
+    .formulario-viajes {
+      font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+      font-size: 0.8em;
+      width: 40%;
+      padding: 10px;
+      border: 1px solid #333;
+      border-radius: 0.5em;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+      background-color: #333;
+      align-content: center;
+      color: #fff;
+    }
+  
+    .formulario-viajes * {
+      box-sizing: border-box;
+    }
+  
+    .formulario-viajes label {
+      padding: 0;
+      font-weight: bold;
+    }
+  
+  
+    .formulario-viajes select{
+      display: block;
+      width: 100%;
+      border: 1px solid #ccc;
+      font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+      font-size: 0.9em;
+      padding: 0.3em;
+      border-radius: 5px;
+    }
+  
+  
+    .btn{
+      font-family: Agency FB !important;
+      background: rgb(235, 230, 70) !important;
+      color: #000;
+      border: none;
+      border-radius: 5px;
+      padding: 0.5em;
+      font-weight: bold;
+     }
+  
+    .btn:hover {
+      transform: translateY(-3px) scale(1.05);
+      box-shadow: 0 5px 3px 0px rgba(0, 0, 0, 0.4);
+  }
+  
+  .form{
+    width: 100%;
+    height: 450px;
+    display: block;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .titulo{
+    font-family: Agency FB !important;
+    font-size: 1.5em;
+    color:rgb(235, 230, 70);
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    padding: 0.5em;
+    margin: 84px 0 0 0;
+    background: #111;
+    border-radius: 3px;
+  }
